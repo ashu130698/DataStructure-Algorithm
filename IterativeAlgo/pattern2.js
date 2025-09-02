@@ -12,4 +12,4 @@ function pattern2(n) {
         console.log(currentRow);
     }
 }
-pattern2(3);
+pattern2(9);
