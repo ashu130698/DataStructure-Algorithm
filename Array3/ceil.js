@@ -1,4 +1,4 @@
-function findceil(arr, target) {
+function findCeil(arr, target) {
     var l = 0;
     var r = arr.length - 1;
     var ans = -1;
@@ -7,7 +7,7 @@ function findceil(arr, target) {
         if (arr[mid] == target)
             return arr[mid];
         else if (arr[mid] < target)
-            return l = mid + 1;
+            l = mid + 1;
         else if (arr[mid] > target) {
             ans = arr[mid]; // if arr[mid] is bigger it can be potential ceil
             r = mid - 1;
@@ -17,4 +17,4 @@ function findceil(arr, target) {
 }
 var arr = [10, 20, 30, 40, 50, 60, 70, 80, 90];
 var target = 100;
-console.log(findceil(arr, target));
+console.log(findCeil(arr, target));
