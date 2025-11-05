@@ -1,3 +1,4 @@
 subString = cannot be empty, continouschunk of array/string, and order matters
 
 subSequence = cant be empty, not continous neccessary and same as array
+
