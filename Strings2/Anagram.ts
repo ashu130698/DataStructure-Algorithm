@@ -18,3 +18,7 @@ function isAnagram(s: string, t: string): boolean {
   return true;
 }
 
+let s = "rat";
+let t = "art";
+
+console.log(isAnagram(s, t));
